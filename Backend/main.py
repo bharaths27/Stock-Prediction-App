@@ -111,3 +111,14 @@ def predict_stock_price(company_name: str, timeframe: str = "1W", lookback: int 
         "timeframe": timeframe,
         "predictions": predictions
     }
+
+@app.get("/debug/status")
+def get_server_status():
+    """A debugging endpoint to check the live status of the company list."""
+    company_keys = list(COMPANY_NAME_TO_TICKER.keys())
+    return {
+        "status": "Server is running",
+        "loaded_company_count": len(company_keys),
+        "is_list_empty": len(company_keys) == 0,
+        "company_list_sample": company_keys[:5] # Shows the first 5 companies
+    }
