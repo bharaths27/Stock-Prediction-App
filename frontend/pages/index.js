@@ -237,7 +237,7 @@ export default function Home() {
                 </DialogTrigger>
                 <DialogContent className="max-w-xl max-h-[80vh] overflow-y-auto">
                   <DialogHeader>
-                    <DialogTitle>All S&P 500 Companies</DialogTitle>
+                    <DialogTitle>All Companies</DialogTitle>
                     <DialogDescription>Select a company to view its data.</DialogDescription>
                   </DialogHeader>
                   <Table>
