@@ -2,6 +2,8 @@
 import os
 import joblib
 import numpy as np
+import pandas as pd
+import json
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 
@@ -9,9 +11,9 @@ MODELS_DIR = "models"
 DATA_DIR = "data"
 os.makedirs(MODELS_DIR, exist_ok=True)
 
-def generate_all_dummy_models():
+def generate_all_models_from_local_data():
     """
-    Creates and saves blank, placeholder models for every stock in the data directory.
+    Creates and saves models by training them on the pre-fetched local data.
     This script runs offline and does not require any network access.
     """
     if not os.path.exists(DATA_DIR):
@@ -19,32 +21,48 @@ def generate_all_dummy_models():
         return
 
     tickers = [f.split('.')[0] for f in os.listdir(DATA_DIR) if f.endswith(".json")]
-    print(f"Found {len(tickers)} stocks. Generating dummy models...")
-
-    # Create a tiny, generic dataset to make the models valid
-    X_dummy = np.array([[100, 101, 102, 103, 104]])
-    y_dummy = np.array([105])
+    print(f"Found {len(tickers)} stocks. Generating models from local data...")
 
     for ticker in tickers:
         try:
-            # Create and "train" a dummy Linear Regression model
+            # 1. Load the local historical data for the stock
+            data_filename = os.path.join(DATA_DIR, f"{ticker}.json")
+            with open(data_filename, 'r') as f:
+                local_data = json.load(f)
+            
+            history = local_data.get('history', [])
+            if len(history) < 10: # Need at least a few data points
+                print(f"-> Not enough local history for {ticker}. Skipping.")
+                continue
+
+            # 2. Create a DataFrame and generate lag features
+            df = pd.DataFrame(history)
+            lookback = 5
+            for lag in range(1, lookback + 1):
+                df[f"lag_{lag}"] = df["close"].shift(lag)
+            df.dropna(inplace=True)
+
+            feature_cols = [f"lag_{i}" for i in range(1, lookback + 1)]
+            X_train = df[feature_cols].values
+            y_train = df["close"].values
+
+            # 3. Train both models on this stock-specific data
             linear_model = LinearRegression()
-            linear_model.fit(X_dummy, y_dummy)
+            linear_model.fit(X_train, y_train)
+            
+            tree_model = DecisionTreeRegressor(max_depth=3) # Use a shallow tree
+            tree_model.fit(X_train, y_train)
 
-            # Create and "train" a dummy Decision Tree model
-            tree_model = DecisionTreeRegressor()
-            tree_model.fit(X_dummy, y_dummy)
-
-            # Save both models to files
+            # 4. Save the new, smarter models
             joblib.dump(linear_model, os.path.join(MODELS_DIR, f"{ticker}_linear.joblib"))
             joblib.dump(tree_model, os.path.join(MODELS_DIR, f"{ticker}_tree.joblib"))
-
-            print(f"-> Generated dummy models for {ticker}")
-
+            
+            print(f"-> Generated models for {ticker}")
+        
         except Exception as e:
-            print(f"-> ❌ Failed to generate dummy models for {ticker}: {e}")
+            print(f"-> ❌ Failed to generate models for {ticker}: {e}")
 
-    print("\n✅ Dummy model generation complete.")
+    print("\n✅ Model generation complete.")
 
 if __name__ == "__main__":
-    generate_all_dummy_models()
+    generate_all_models_from_local_data()
