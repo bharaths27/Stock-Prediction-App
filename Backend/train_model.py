@@ -5,28 +5,25 @@ import joblib
 import os
 import json
 
-# --- Absolute Path Configuration ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODELS_DIR = os.path.join(BASE_DIR, "models")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 def load_model_and_predict(ticker: str, days_ahead: int, lookback: int = 5, model_type: str = 'linear'):
-    """
-    Loads a pre-trained model and uses pre-fetched local data to generate a forecast.
-    This function makes NO external API calls.
-    """
+    # Change 'tree' to 'forest' to load the correct file
+    if model_type == 'tree': 
+        model_type = 'forest'
+
     model_filename = os.path.join(MODELS_DIR, f"{ticker}_{model_type}.joblib")
     data_filename = os.path.join(DATA_DIR, f"{ticker}.json")
     
     try:
         model = joblib.load(model_filename)
-        
         with open(data_filename, 'r') as f:
             local_data = json.load(f)
         
         history = local_data.get('history', [])
         if len(history) < lookback:
-            print(f"Not enough local history for {ticker}")
             return None
 
         recent_closes = [item['close'] for item in history[-lookback:]]
@@ -42,10 +39,6 @@ def load_model_and_predict(ticker: str, days_ahead: int, lookback: int = 5, mode
             recent_closes.append(next_close)
             
         return predictions
-
-    except FileNotFoundError:
-        print(f"Model or data file not found for {ticker} ({model_type})")
-        return None
     except Exception as e:
         print(f"An error occurred during prediction for {ticker}: {e}")
         return None

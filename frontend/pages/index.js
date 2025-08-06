@@ -340,7 +340,7 @@ export default function Home() {
                     <p className="text-sm font-medium mb-2 text-muted-foreground">1. Select Model</p>
                     <div className="flex gap-2">
                         <Button variant={modelType === 'linear' ? "secondary" : "outline"} onClick={() => setModelType('linear')}>Linear Regression</Button>
-                        <Button variant={modelType === 'tree' ? "secondary" : "outline"} onClick={() => setModelType('tree')}>Decision Tree</Button>
+                        <Button variant={modelType === 'tree' ? "secondary" : "outline"} onClick={() => setModelType('tree')}>Random Forest</Button>
                     </div>
                 </div>
                 <div>
