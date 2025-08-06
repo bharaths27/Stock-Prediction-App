@@ -1,0 +1,6 @@
+{
+    "company_name": "Oracle Corporation",
+    "ticker": "ORCL",
+    "metrics": { "marketCap": 380000000000, "averageVolume": 8000000, "trailingPE": 35.9, "dividendYield": 0.012, "fiftyTwoWeekLow": 100.0, "fiftyTwoWeekHigh": 145.0 },
+    "history": [ {"date": "2024-10-01", "close": 140.20}, {"date": "2025-01-15", "close": 142.80}, {"date": "2025-04-20", "close": 138.60}, {"date": "2025-08-06", "close": 141.10} ]
+}

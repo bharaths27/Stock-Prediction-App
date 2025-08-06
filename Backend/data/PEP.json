@@ -1,0 +1,6 @@
+{
+    "company_name": "PepsiCo",
+    "ticker": "PEP",
+    "metrics": { "marketCap": 230000000000, "averageVolume": 4500000, "trailingPE": 25.9, "dividendYield": 0.03, "fiftyTwoWeekLow": 155.0, "fiftyTwoWeekHigh": 190.0 },
+    "history": [ {"date": "2024-10-01", "close": 165.78}, {"date": "2025-01-15", "close": 170.21}, {"date": "2025-04-20", "close": 175.99}, {"date": "2025-08-06", "close": 172.44} ]
+}

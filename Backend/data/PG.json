@@ -1,0 +1,6 @@
+{
+    "company_name": "Procter & Gamble",
+    "ticker": "PG",
+    "metrics": { "marketCap": 390000000000, "averageVolume": 6000000, "trailingPE": 26.3, "dividendYield": 0.024, "fiftyTwoWeekLow": 140.0, "fiftyTwoWeekHigh": 170.0 },
+    "history": [ {"date": "2024-10-01", "close": 160.78}, {"date": "2025-01-15", "close": 162.34}, {"date": "2025-04-20", "close": 165.99}, {"date": "2025-08-06", "close": 168.12} ]
+}

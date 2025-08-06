@@ -1,0 +1,6 @@
+{
+    "company_name": "Advanced Micro Devices",
+    "ticker": "AMD",
+    "metrics": { "marketCap": 260000000000, "averageVolume": 50000000, "trailingPE": 230.1, "dividendYield": null, "fiftyTwoWeekLow": 95.0, "fiftyTwoWeekHigh": 220.0 },
+    "history": [ {"date": "2024-10-01", "close": 160.70}, {"date": "2025-01-15", "close": 175.30}, {"date": "2025-04-20", "close": 155.90}, {"date": "2025-08-06", "close": 162.40} ]
+}

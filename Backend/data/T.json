@@ -1,0 +1,6 @@
+{
+    "company_name": "AT&T",
+    "ticker": "T",
+    "metrics": { "marketCap": 130000000000, "averageVolume": 35000000, "trailingPE": null, "dividendYield": 0.06, "fiftyTwoWeekLow": 14.0, "fiftyTwoWeekHigh": 20.0 },
+    "history": [ {"date": "2024-10-01", "close": 18.20}, {"date": "2025-01-15", "close": 18.50}, {"date": "2025-04-20", "close": 17.90}, {"date": "2025-08-06", "close": 18.30} ]
+}

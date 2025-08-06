@@ -1,0 +1,6 @@
+{
+    "company_name": "Starbucks",
+    "ticker": "SBUX",
+    "metrics": { "marketCap": 90000000000, "averageVolume": 9000000, "trailingPE": 22.1, "dividendYield": 0.028, "fiftyTwoWeekLow": 72.0, "fiftyTwoWeekHigh": 105.0 },
+    "history": [ {"date": "2024-10-01", "close": 80.50}, {"date": "2025-01-15", "close": 82.30}, {"date": "2025-04-20", "close": 78.90}, {"date": "2025-08-06", "close": 81.20} ]
+}

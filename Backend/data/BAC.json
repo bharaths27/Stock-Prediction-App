@@ -1,0 +1,6 @@
+{
+    "company_name": "Bank of America",
+    "ticker": "BAC",
+    "metrics": { "marketCap": 310000000000, "averageVolume": 40000000, "trailingPE": 11.1, "dividendYield": 0.024, "fiftyTwoWeekLow": 26.0, "fiftyTwoWeekHigh": 40.0 },
+    "history": [ {"date": "2024-10-01", "close": 35.50}, {"date": "2025-01-15", "close": 37.80}, {"date": "2025-04-20", "close": 39.20}, {"date": "2025-08-06", "close": 38.90} ]
+}

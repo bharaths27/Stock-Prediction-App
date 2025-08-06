@@ -1,0 +1,6 @@
+{
+    "company_name": "Costco",
+    "ticker": "COST",
+    "metrics": { "marketCap": 340000000000, "averageVolume": 1800000, "trailingPE": 48.2, "dividendYield": 0.006, "fiftyTwoWeekLow": 500.0, "fiftyTwoWeekHigh": 820.0 },
+    "history": [ {"date": "2024-10-01", "close": 750.43}, {"date": "2025-01-15", "close": 770.89}, {"date": "2025-04-20", "close": 790.21}, {"date": "2025-08-06", "close": 810.76} ]
+}

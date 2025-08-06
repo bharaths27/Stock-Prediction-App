@@ -1,0 +1,6 @@
+{
+    "company_name": "Meta Platforms",
+    "ticker": "META",
+    "metrics": { "marketCap": 1200000000000, "averageVolume": 18000000, "trailingPE": 28.4, "dividendYield": 0.004, "fiftyTwoWeekLow": 280.0, "fiftyTwoWeekHigh": 510.0 },
+    "history": [ {"date": "2024-10-01", "close": 450.76}, {"date": "2025-01-15", "close": 470.91}, {"date": "2025-04-20", "close": 495.22}, {"date": "2025-08-06", "close": 505.18} ]
+}

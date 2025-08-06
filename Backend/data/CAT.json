@@ -1,0 +1,6 @@
+{
+    "company_name": "Caterpillar Inc.",
+    "ticker": "CAT",
+    "metrics": { "marketCap": 170000000000, "averageVolume": 3000000, "trailingPE": 15.6, "dividendYield": 0.016, "fiftyTwoWeekLow": 250.0, "fiftyTwoWeekHigh": 380.0 },
+    "history": [ {"date": "2024-10-01", "close": 330.80}, {"date": "2025-01-15", "close": 345.20}, {"date": "2025-04-20", "close": 360.50}, {"date": "2025-08-06", "close": 355.70} ]
+}

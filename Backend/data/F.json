@@ -1,0 +1,6 @@
+{
+    "company_name": "Ford Motor Company",
+    "ticker": "F",
+    "metrics": { "marketCap": 48000000000, "averageVolume": 50000000, "trailingPE": 12.5, "dividendYield": 0.05, "fiftyTwoWeekLow": 10.0, "fiftyTwoWeekHigh": 14.0 },
+    "history": [ {"date": "2024-10-01", "close": 12.10}, {"date": "2025-01-15", "close": 12.50}, {"date": "2025-04-20", "close": 11.90}, {"date": "2025-08-06", "close": 12.30} ]
+}

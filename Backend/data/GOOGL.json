@@ -1,0 +1,24 @@
+{
+    "company_name": "Alphabet Inc. (Class A)",
+    "ticker": "GOOGL",
+    "metrics": {
+        "marketCap": 1800000000000,
+        "averageVolume": 25000000,
+        "trailingPE": 25.8,
+        "dividendYield": null,
+        "fiftyTwoWeekLow": 120.0,
+        "fiftyTwoWeekHigh": 160.0
+    },
+    "history": [
+        {"date": "2024-08-05", "close": 145.30},
+        {"date": "2024-09-15", "close": 142.10},
+        {"date": "2024-10-25", "close": 148.90},
+        {"date": "2024-11-30", "close": 150.20},
+        {"date": "2025-01-10", "close": 153.60},
+        {"date": "2025-02-20", "close": 155.00},
+        {"date": "2025-03-31", "close": 152.80},
+        {"date": "2025-05-10", "close": 156.40},
+        {"date": "2025-06-20", "close": 158.10},
+        {"date": "2025-08-05", "close": 159.50}
+    ]
+}

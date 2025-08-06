@@ -1,0 +1,6 @@
+{
+    "company_name": "Eli Lilly and Company",
+    "ticker": "LLY",
+    "metrics": { "marketCap": 740000000000, "averageVolume": 3000000, "trailingPE": 110.2, "dividendYield": 0.007, "fiftyTwoWeekLow": 500.0, "fiftyTwoWeekHigh": 850.0 },
+    "history": [ {"date": "2024-10-01", "close": 780.12}, {"date": "2025-01-15", "close": 800.45}, {"date": "2025-04-20", "close": 820.78}, {"date": "2025-08-06", "close": 845.33} ]
+}

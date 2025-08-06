@@ -1,0 +1,6 @@
+{
+    "company_name": "Qualcomm",
+    "ticker": "QCOM",
+    "metrics": { "marketCap": 230000000000, "averageVolume": 8000000, "trailingPE": 27.5, "dividendYield": 0.016, "fiftyTwoWeekLow": 105.0, "fiftyTwoWeekHigh": 220.0 },
+    "history": [ {"date": "2024-10-01", "close": 200.10}, {"date": "2025-01-15", "close": 210.40}, {"date": "2025-04-20", "close": 215.80}, {"date": "2025-08-06", "close": 212.60} ]
+}

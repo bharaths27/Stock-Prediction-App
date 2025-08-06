@@ -1,0 +1,6 @@
+{
+    "company_name": "PayPal",
+    "ticker": "PYPL",
+    "metrics": { "marketCap": 65000000000, "averageVolume": 15000000, "trailingPE": 15.3, "dividendYield": null, "fiftyTwoWeekLow": 50.0, "fiftyTwoWeekHigh": 75.0 },
+    "history": [ {"date": "2024-10-01", "close": 62.40}, {"date": "2025-01-15", "close": 65.10}, {"date": "2025-04-20", "close": 68.30}, {"date": "2025-08-06", "close": 66.90} ]
+}

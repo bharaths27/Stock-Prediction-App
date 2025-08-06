@@ -1,0 +1,6 @@
+{
+    "company_name": "Visa Inc.",
+    "ticker": "V",
+    "metrics": { "marketCap": 560000000000, "averageVolume": 7000000, "trailingPE": 30.8, "dividendYield": 0.008, "fiftyTwoWeekLow": 220.0, "fiftyTwoWeekHigh": 290.0 },
+    "history": [ {"date": "2024-10-01", "close": 270.43}, {"date": "2025-01-15", "close": 275.89}, {"date": "2025-04-20", "close": 280.21}, {"date": "2025-08-06", "close": 285.76} ]
+}

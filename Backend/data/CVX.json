@@ -1,0 +1,6 @@
+{
+    "company_name": "Chevron Corporation",
+    "ticker": "CVX",
+    "metrics": { "marketCap": 288000000000, "averageVolume": 9000000, "trailingPE": 14.2, "dividendYield": 0.042, "fiftyTwoWeekLow": 140.0, "fiftyTwoWeekHigh": 170.0 },
+    "history": [ {"date": "2024-10-01", "close": 155.80}, {"date": "2025-01-15", "close": 159.20}, {"date": "2025-04-20", "close": 162.40}, {"date": "2025-08-06", "close": 165.10} ]
+}

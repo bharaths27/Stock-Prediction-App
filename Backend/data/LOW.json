@@ -1,0 +1,6 @@
+{
+    "company_name": "Lowe's",
+    "ticker": "LOW",
+    "metrics": { "marketCap": 130000000000, "averageVolume": 3000000, "trailingPE": 18.2, "dividendYield": 0.02, "fiftyTwoWeekLow": 185.0, "fiftyTwoWeekHigh": 260.0 },
+    "history": [ {"date": "2024-10-01", "close": 230.70}, {"date": "2025-01-15", "close": 235.10}, {"date": "2025-04-20", "close": 240.50}, {"date": "2025-08-06", "close": 238.90} ]
+}

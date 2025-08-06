@@ -1,0 +1,6 @@
+{
+    "company_name": "Netflix",
+    "ticker": "NFLX",
+    "metrics": { "marketCap": 280000000000, "averageVolume": 4000000, "trailingPE": 45.8, "dividendYield": null, "fiftyTwoWeekLow": 345.0, "fiftyTwoWeekHigh": 700.0 },
+    "history": [ {"date": "2024-10-01", "close": 610.20}, {"date": "2025-01-15", "close": 640.80}, {"date": "2025-04-20", "close": 680.50}, {"date": "2025-08-06", "close": 670.30} ]
+}

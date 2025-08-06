@@ -1,0 +1,6 @@
+{
+    "company_name": "Nike, Inc.",
+    "ticker": "NKE",
+    "metrics": { "marketCap": 140000000000, "averageVolume": 9000000, "trailingPE": 26.8, "dividendYield": 0.015, "fiftyTwoWeekLow": 88.0, "fiftyTwoWeekHigh": 125.0 },
+    "history": [ {"date": "2024-10-01", "close": 92.12}, {"date": "2025-01-15", "close": 95.45}, {"date": "2025-04-20", "close": 101.78}, {"date": "2025-08-06", "close": 98.33} ]
+}

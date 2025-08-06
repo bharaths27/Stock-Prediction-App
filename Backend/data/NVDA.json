@@ -1,0 +1,6 @@
+{
+    "company_name": "Nvidia",
+    "ticker": "NVDA",
+    "metrics": { "marketCap": 2100000000000, "averageVolume": 40000000, "trailingPE": 60.1, "dividendYield": 0.001, "fiftyTwoWeekLow": 400.0, "fiftyTwoWeekHigh": 950.0 },
+    "history": [ {"date": "2024-10-01", "close": 850.12}, {"date": "2025-01-15", "close": 880.45}, {"date": "2025-04-20", "close": 910.78}, {"date": "2025-08-06", "close": 925.33} ]
+}

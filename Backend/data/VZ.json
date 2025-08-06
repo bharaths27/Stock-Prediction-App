@@ -1,0 +1,6 @@
+{
+    "company_name": "Verizon",
+    "ticker": "VZ",
+    "metrics": { "marketCap": 170000000000, "averageVolume": 20000000, "trailingPE": 15.1, "dividendYield": 0.065, "fiftyTwoWeekLow": 32.0, "fiftyTwoWeekHigh": 43.0 },
+    "history": [ {"date": "2024-10-01", "close": 40.80}, {"date": "2025-01-15", "close": 41.20}, {"date": "2025-04-20", "close": 42.10}, {"date": "2025-08-06", "close": 41.80} ]
+}

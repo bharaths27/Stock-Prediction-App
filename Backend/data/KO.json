@@ -1,0 +1,6 @@
+{
+    "company_name": "Coca-Cola Company (The)",
+    "ticker": "KO",
+    "metrics": { "marketCap": 260000000000, "averageVolume": 13000000, "trailingPE": 25.1, "dividendYield": 0.032, "fiftyTwoWeekLow": 52.0, "fiftyTwoWeekHigh": 65.0 },
+    "history": [ {"date": "2024-10-01", "close": 60.45}, {"date": "2025-01-15", "close": 61.89}, {"date": "2025-04-20", "close": 62.34}, {"date": "2025-08-06", "close": 63.55} ]
+}

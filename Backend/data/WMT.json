@@ -1,0 +1,6 @@
+{
+    "company_name": "Walmart",
+    "ticker": "WMT",
+    "metrics": { "marketCap": 520000000000, "averageVolume": 15000000, "trailingPE": 26.0, "dividendYield": 0.013, "fiftyTwoWeekLow": 55.0, "fiftyTwoWeekHigh": 70.0 },
+    "history": [ {"date": "2024-10-01", "close": 60.12}, {"date": "2025-01-15", "close": 62.45}, {"date": "2025-04-20", "close": 65.88}, {"date": "2025-08-06", "close": 68.01} ]
+}

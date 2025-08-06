@@ -1,0 +1,6 @@
+{
+    "company_name": "Johnson & Johnson",
+    "ticker": "JNJ",
+    "metrics": { "marketCap": 380000000000, "averageVolume": 8000000, "trailingPE": 22.1, "dividendYield": 0.031, "fiftyTwoWeekLow": 145.0, "fiftyTwoWeekHigh": 175.0 },
+    "history": [ {"date": "2024-10-01", "close": 150.98}, {"date": "2025-01-15", "close": 155.32}, {"date": "2025-04-20", "close": 160.45}, {"date": "2025-08-06", "close": 158.88} ]
+}

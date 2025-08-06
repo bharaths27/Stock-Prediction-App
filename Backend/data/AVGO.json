@@ -1,0 +1,6 @@
+{
+    "company_name": "Broadcom Inc.",
+    "ticker": "AVGO",
+    "metrics": { "marketCap": 600000000000, "averageVolume": 2000000, "trailingPE": 35.6, "dividendYield": 0.016, "fiftyTwoWeekLow": 800.0, "fiftyTwoWeekHigh": 1400.0 },
+    "history": [ {"date": "2024-10-01", "close": 1200.55}, {"date": "2025-01-15", "close": 1250.88}, {"date": "2025-04-20", "close": 1300.21}, {"date": "2025-08-06", "close": 1350.76} ]
+}

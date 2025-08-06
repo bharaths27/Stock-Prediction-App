@@ -1,0 +1,6 @@
+{
+    "company_name": "General Motors",
+    "ticker": "GM",
+    "metrics": { "marketCap": 54000000000, "averageVolume": 14000000, "trailingPE": 5.8, "dividendYield": 0.008, "fiftyTwoWeekLow": 28.0, "fiftyTwoWeekHigh": 50.0 },
+    "history": [ {"date": "2024-10-01", "close": 45.60}, {"date": "2025-01-15", "close": 47.20}, {"date": "2025-04-20", "close": 48.10}, {"date": "2025-08-06", "close": 46.90} ]
+}

@@ -1,0 +1,6 @@
+{
+    "company_name": "JPMorgan Chase",
+    "ticker": "JPM",
+    "metrics": { "marketCap": 540000000000, "averageVolume": 12000000, "trailingPE": 11.5, "dividendYield": 0.023, "fiftyTwoWeekLow": 140.0, "fiftyTwoWeekHigh": 200.0 },
+    "history": [ {"date": "2024-10-01", "close": 180.34}, {"date": "2025-01-15", "close": 185.67}, {"date": "2025-04-20", "close": 190.11}, {"date": "2025-08-06", "close": 195.88} ]
+}

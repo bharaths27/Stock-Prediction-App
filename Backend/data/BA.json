@@ -1,0 +1,6 @@
+{
+    "company_name": "Boeing",
+    "ticker": "BA",
+    "metrics": { "marketCap": 108000000000, "averageVolume": 8000000, "trailingPE": null, "dividendYield": null, "fiftyTwoWeekLow": 160.0, "fiftyTwoWeekHigh": 265.0 },
+    "history": [ {"date": "2024-10-01", "close": 180.40}, {"date": "2025-01-15", "close": 175.60}, {"date": "2025-04-20", "close": 185.20}, {"date": "2025-08-06", "close": 178.90} ]
+}

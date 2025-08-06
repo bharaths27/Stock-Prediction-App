@@ -1,0 +1,6 @@
+{
+    "company_name": "Merck & Co.",
+    "ticker": "MRK",
+    "metrics": { "marketCap": 325000000000, "averageVolume": 7000000, "trailingPE": 130.1, "dividendYield": 0.024, "fiftyTwoWeekLow": 100.0, "fiftyTwoWeekHigh": 135.0 },
+    "history": [ {"date": "2024-10-01", "close": 128.40}, {"date": "2025-01-15", "close": 130.11}, {"date": "2025-04-20", "close": 132.65}, {"date": "2025-08-06", "close": 131.50} ]
+}

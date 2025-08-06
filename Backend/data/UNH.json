@@ -1,0 +1,6 @@
+{
+    "company_name": "UnitedHealth Group",
+    "ticker": "UNH",
+    "metrics": { "marketCap": 450000000000, "averageVolume": 3000000, "trailingPE": 20.5, "dividendYield": 0.016, "fiftyTwoWeekLow": 440.0, "fiftyTwoWeekHigh": 550.0 },
+    "history": [ {"date": "2024-10-01", "close": 490.67}, {"date": "2025-01-15", "close": 505.88}, {"date": "2025-04-20", "close": 515.21}, {"date": "2025-08-06", "close": 520.43} ]
+}

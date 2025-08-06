@@ -1,0 +1,6 @@
+{
+    "company_name": "Mastercard",
+    "ticker": "MA",
+    "metrics": { "marketCap": 420000000000, "averageVolume": 2500000, "trailingPE": 35.8, "dividendYield": 0.006, "fiftyTwoWeekLow": 360.0, "fiftyTwoWeekHigh": 490.0 },
+    "history": [ {"date": "2024-10-01", "close": 450.22}, {"date": "2025-01-15", "close": 465.78}, {"date": "2025-04-20", "close": 475.12}, {"date": "2025-08-06", "close": 480.00} ]
+}

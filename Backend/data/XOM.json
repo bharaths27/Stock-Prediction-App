@@ -1,0 +1,6 @@
+{
+    "company_name": "ExxonMobil",
+    "ticker": "XOM",
+    "metrics": { "marketCap": 480000000000, "averageVolume": 16000000, "trailingPE": 11.2, "dividendYield": 0.034, "fiftyTwoWeekLow": 98.0, "fiftyTwoWeekHigh": 125.0 },
+    "history": [ {"date": "2024-10-01", "close": 110.45}, {"date": "2025-01-15", "close": 115.67}, {"date": "2025-04-20", "close": 120.21}, {"date": "2025-08-06", "close": 122.33} ]
+}

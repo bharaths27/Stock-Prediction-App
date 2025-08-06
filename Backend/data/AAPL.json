@@ -1,0 +1,24 @@
+{
+    "company_name": "Apple Inc.",
+    "ticker": "AAPL",
+    "metrics": {
+        "marketCap": 2600000000000,
+        "averageVolume": 54000000,
+        "trailingPE": 26.5,
+        "dividendYield": 0.006,
+        "fiftyTwoWeekLow": 165.0,
+        "fiftyTwoWeekHigh": 200.0
+    },
+    "history": [
+        {"date": "2024-08-05", "close": 191.89},
+        {"date": "2024-09-15", "close": 188.45},
+        {"date": "2024-10-25", "close": 193.12},
+        {"date": "2024-11-30", "close": 195.67},
+        {"date": "2025-01-10", "close": 199.23},
+        {"date": "2025-02-20", "close": 201.55},
+        {"date": "2025-03-31", "close": 205.88},
+        {"date": "2025-05-10", "close": 210.11},
+        {"date": "2025-06-20", "close": 213.45},
+        {"date": "2025-08-05", "close": 215.07}
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "company_name": "Walt Disney Company (The)",
+    "ticker": "DIS",
+    "metrics": { "marketCap": 190000000000, "averageVolume": 11000000, "trailingPE": 105.1, "dividendYield": 0.003, "fiftyTwoWeekLow": 78.0, "fiftyTwoWeekHigh": 123.0 },
+    "history": [ {"date": "2024-10-01", "close": 100.45}, {"date": "2025-01-15", "close": 105.67}, {"date": "2025-04-20", "close": 110.21}, {"date": "2025-08-06", "close": 108.99} ]
+}

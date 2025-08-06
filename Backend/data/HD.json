@@ -1,0 +1,6 @@
+{
+    "company_name": "Home Depot",
+    "ticker": "HD",
+    "metrics": { "marketCap": 340000000000, "averageVolume": 4000000, "trailingPE": 22.8, "dividendYield": 0.025, "fiftyTwoWeekLow": 280.0, "fiftyTwoWeekHigh": 390.0 },
+    "history": [ {"date": "2024-10-01", "close": 350.12}, {"date": "2025-01-15", "close": 360.45}, {"date": "2025-04-20", "close": 370.78}, {"date": "2025-08-06", "close": 380.99} ]
+}

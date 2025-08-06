@@ -1,0 +1,6 @@
+{
+    "company_name": "Salesforce",
+    "ticker": "CRM",
+    "metrics": { "marketCap": 260000000000, "averageVolume": 5000000, "trailingPE": 70.2, "dividendYield": null, "fiftyTwoWeekLow": 195.0, "fiftyTwoWeekHigh": 320.0 },
+    "history": [ {"date": "2024-10-01", "close": 270.30}, {"date": "2025-01-15", "close": 285.90}, {"date": "2025-04-20", "close": 295.10}, {"date": "2025-08-06", "close": 288.50} ]
+}

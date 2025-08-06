@@ -1,0 +1,6 @@
+{
+    "company_name": "Pfizer",
+    "ticker": "PFE",
+    "metrics": { "marketCap": 158000000000, "averageVolume": 45000000, "trailingPE": 72.5, "dividendYield": 0.06, "fiftyTwoWeekLow": 25.0, "fiftyTwoWeekHigh": 38.0 },
+    "history": [ {"date": "2024-10-01", "close": 28.50}, {"date": "2025-01-15", "close": 27.80}, {"date": "2025-04-20", "close": 29.10}, {"date": "2025-08-06", "close": 28.95} ]
+}

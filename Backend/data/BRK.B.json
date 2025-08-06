@@ -1,0 +1,6 @@
+{
+    "company_name": "Berkshire Hathaway",
+    "ticker": "BRK.B",
+    "metrics": { "marketCap": 860000000000, "averageVolume": 4000000, "trailingPE": 9.1, "dividendYield": null, "fiftyTwoWeekLow": 330.0, "fiftyTwoWeekHigh": 430.0 },
+    "history": [ {"date": "2024-10-01", "close": 400.12}, {"date": "2025-01-15", "close": 410.45}, {"date": "2025-04-20", "close": 415.78}, {"date": "2025-08-06", "close": 425.33} ]
+}

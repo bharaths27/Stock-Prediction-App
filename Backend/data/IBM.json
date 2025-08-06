@@ -1,0 +1,6 @@
+{
+    "company_name": "IBM",
+    "ticker": "IBM",
+    "metrics": { "marketCap": 158000000000, "averageVolume": 4000000, "trailingPE": 19.3, "dividendYield": 0.038, "fiftyTwoWeekLow": 135.0, "fiftyTwoWeekHigh": 200.0 },
+    "history": [ {"date": "2024-10-01", "close": 170.50}, {"date": "2025-01-15", "close": 175.20}, {"date": "2025-04-20", "close": 168.90}, {"date": "2025-08-06", "close": 172.40} ]
+}

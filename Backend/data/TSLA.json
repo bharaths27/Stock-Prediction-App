@@ -1,0 +1,24 @@
+{
+    "company_name": "Tesla, Inc.",
+    "ticker": "TSLA",
+    "metrics": {
+        "marketCap": 580000000000,
+        "averageVolume": 95000000,
+        "trailingPE": 40.5,
+        "dividendYield": null,
+        "fiftyTwoWeekLow": 150.0,
+        "fiftyTwoWeekHigh": 280.0
+    },
+    "history": [
+        {"date": "2024-08-05", "close": 240.50},
+        {"date": "2024-09-15", "close": 255.80},
+        {"date": "2024-10-25", "close": 230.10},
+        {"date": "2024-11-30", "close": 245.20},
+        {"date": "2025-01-10", "close": 225.90},
+        {"date": "2025-02-20", "close": 210.40},
+        {"date": "2025-03-31", "close": 205.60},
+        {"date": "2025-05-10", "close": 190.30},
+        {"date": "2025-06-20", "close": 185.70},
+        {"date": "2025-08-05", "close": 195.00}
+    ]
+}

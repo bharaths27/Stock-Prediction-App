@@ -1,0 +1,6 @@
+{
+    "company_name": "Lockheed Martin",
+    "ticker": "LMT",
+    "metrics": { "marketCap": 110000000000, "averageVolume": 1200000, "trailingPE": 17.1, "dividendYield": 0.027, "fiftyTwoWeekLow": 410.0, "fiftyTwoWeekHigh": 490.0 },
+    "history": [ {"date": "2024-10-01", "close": 460.30}, {"date": "2025-01-15", "close": 470.80}, {"date": "2025-04-20", "close": 475.20}, {"date": "2025-08-06", "close": 468.50} ]
+}

@@ -1,0 +1,24 @@
+{
+    "company_name": "Amazon",
+    "ticker": "AMZN",
+    "metrics": {
+        "marketCap": 1600000000000,
+        "averageVolume": 45000000,
+        "trailingPE": 55.1,
+        "dividendYield": null,
+        "fiftyTwoWeekLow": 125.0,
+        "fiftyTwoWeekHigh": 190.0
+    },
+    "history": [
+        {"date": "2024-08-05", "close": 175.40},
+        {"date": "2024-09-15", "close": 178.20},
+        {"date": "2024-10-25", "close": 180.00},
+        {"date": "2024-11-30", "close": 182.50},
+        {"date": "2025-01-10", "close": 185.30},
+        {"date": "2025-02-20", "close": 188.10},
+        {"date": "2025-03-31", "close": 186.90},
+        {"date": "2025-05-10", "close": 189.60},
+        {"date": "2025-06-20", "close": 191.20},
+        {"date": "2025-08-05", "close": 188.80}
+    ]
+}

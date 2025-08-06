@@ -1,0 +1,24 @@
+{
+    "company_name": "Microsoft",
+    "ticker": "MSFT",
+    "metrics": {
+        "marketCap": 2800000000000,
+        "averageVolume": 22000000,
+        "trailingPE": 31.2,
+        "dividendYield": 0.009,
+        "fiftyTwoWeekLow": 310.0,
+        "fiftyTwoWeekHigh": 410.0
+    },
+    "history": [
+        {"date": "2024-08-05", "close": 380.56},
+        {"date": "2024-09-15", "close": 385.21},
+        {"date": "2024-10-25", "close": 390.83},
+        {"date": "2024-11-30", "close": 395.14},
+        {"date": "2025-01-10", "close": 402.79},
+        {"date": "2025-02-20", "close": 405.33},
+        {"date": "2025-03-31", "close": 408.91},
+        {"date": "2025-05-10", "close": 412.00},
+        {"date": "2025-06-20", "close": 415.75},
+        {"date": "2025-08-05", "close": 418.22}
+    ]
+}

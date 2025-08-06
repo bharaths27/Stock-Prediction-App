@@ -1,0 +1,6 @@
+{
+    "company_name": "Intel",
+    "ticker": "INTC",
+    "metrics": { "marketCap": 130000000000, "averageVolume": 48000000, "trailingPE": 32.5, "dividendYield": 0.016, "fiftyTwoWeekLow": 30.0, "fiftyTwoWeekHigh": 50.0 },
+    "history": [ {"date": "2024-10-01", "close": 31.20}, {"date": "2025-01-15", "close": 30.50}, {"date": "2025-04-20", "close": 33.10}, {"date": "2025-08-06", "close": 32.80} ]
+}

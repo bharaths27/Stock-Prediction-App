@@ -1,0 +1,6 @@
+{
+    "company_name": "Goldman Sachs",
+    "ticker": "GS",
+    "metrics": { "marketCap": 145000000000, "averageVolume": 2000000, "trailingPE": 17.5, "dividendYield": 0.025, "fiftyTwoWeekLow": 300.0, "fiftyTwoWeekHigh": 470.0 },
+    "history": [ {"date": "2024-10-01", "close": 430.60}, {"date": "2025-01-15", "close": 450.20}, {"date": "2025-04-20", "close": 465.80}, {"date": "2025-08-06", "close": 460.10} ]
+}
