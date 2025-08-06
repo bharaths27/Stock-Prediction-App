@@ -5,8 +5,10 @@ import joblib
 import os
 import json
 
-MODELS_DIR = "models"
-DATA_DIR = "data"
+# --- Absolute Path Configuration ---
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODELS_DIR = os.path.join(BASE_DIR, "models")
+DATA_DIR = os.path.join(BASE_DIR, "data")
 
 def load_model_and_predict(ticker: str, days_ahead: int, lookback: int = 5, model_type: str = 'linear'):
     """
@@ -17,10 +19,8 @@ def load_model_and_predict(ticker: str, days_ahead: int, lookback: int = 5, mode
     data_filename = os.path.join(DATA_DIR, f"{ticker}.json")
     
     try:
-        # Load the pre-trained model
         model = joblib.load(model_filename)
         
-        # Load the local historical data
         with open(data_filename, 'r') as f:
             local_data = json.load(f)
         
@@ -29,7 +29,6 @@ def load_model_and_predict(ticker: str, days_ahead: int, lookback: int = 5, mode
             print(f"Not enough local history for {ticker}")
             return None
 
-        # Get the last few days from our LOCAL data
         recent_closes = [item['close'] for item in history[-lookback:]]
         last_date_str = history[-1]['date']
         last_date = pd.to_datetime(last_date_str)

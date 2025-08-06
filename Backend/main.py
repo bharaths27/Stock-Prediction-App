@@ -4,14 +4,21 @@ import os
 import pandas as pd
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-# This import is the only thing that needs to be verified/changed
 from train_model import load_model_and_predict
 
-DATA_DIR = "data"
+# --- Absolute Path Configuration ---
+# Get the directory where this script (main.py) is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# Build an absolute path to the 'data' directory
+DATA_DIR = os.path.join(BASE_DIR, "data")
 
 def get_sp500_companies():
     company_dict = {}
     try:
+        if not os.path.exists(DATA_DIR):
+            print(f"ERROR: Data directory not found at {DATA_DIR}")
+            return {}
+            
         for filename in os.listdir(DATA_DIR):
             if filename.endswith(".json"):
                 file_path = os.path.join(DATA_DIR, filename)
@@ -23,6 +30,7 @@ def get_sp500_companies():
     return company_dict
 
 COMPANY_NAME_TO_TICKER = get_sp500_companies()
+print(f"✅ Loaded {len(COMPANY_NAME_TO_TICKER)} companies.")
 
 app = FastAPI()
 
