@@ -86,7 +86,7 @@ export default function Home() {
   useEffect(() => {
     const fetchAllCompanies = async () => {
       try {
-        const response = await axios.get("${process.env.NEXT_PUBLIC_API_URL}/all_companies");
+        const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/all_companies`);
         console.log("Companies received from API:", response.data); 
         setCompanyList(response.data || []);
       } catch (error) {
